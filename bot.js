@@ -31,4 +31,4 @@ bot.on('ready',function(){
 
 });
 
-bot.login(botconfig.token);
+bot.login(process.env.token);
